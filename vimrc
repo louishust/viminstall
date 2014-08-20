@@ -54,8 +54,8 @@ autocmd FileType tagbar setlocal nocursorline nocursorcolumn " nocursor in tagba
 set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp936         " check file encoding automatic"
 " python options
 filetype plugin on
-#let g:pydiction_location = '/home/louis/.vim/bundle/pydiction/complete-dict'
-#let g:pydiction_menu_height = 20
+let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
+let g:pydiction_menu_height = 20
 set paste
 " paste as you copy
 "set pastetoggle=<F10>

@@ -6,4 +6,4 @@ cp vimrc.bundles.local ~/.vimrc.bundles.local
 mkdir -p ~/.vim/bundle
 cp -r plugin ~/.vim/
 cp -r snippets ~/.vim/
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle

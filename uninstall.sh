@@ -1,7 +1,7 @@
 #!/bin/bash
-rm ~/.vimrc
-rm ~/.vimrc.local
-rm ~/.vimrc.bundles
-rm ~/.vimrc.bundles.local
-rm ~/.vim
+rm -rf ~/.vimrc
+rm -rf ~/.vimrc.local
+rm -rf ~/.vimrc.bundles
+rm -rf ~/.vimrc.bundles.local
+rm -rf ~/.vim
 
