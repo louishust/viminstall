@@ -1,0 +1,4 @@
+Bundle 'mattn/emmet-vim.git'
+Bundle 'fatih/vim-go.git'
+Bundle 'derekwyatt/vim-scala.git'
+Bundle 'vim-airline/vim-airline'

@@ -57,6 +57,7 @@ filetype plugin on
 let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 let g:pydiction_menu_height = 20
 set paste
+set nrformats=
 " paste as you copy
 "set pastetoggle=<F10>
 " map - for swap two line
@@ -134,6 +135,11 @@ endif
 
 " Don't copy the contents of an overwritten selection.
 vnoremap p "_dP
+
+set t_Co=256
+let g:airline_powerline_fonts = 1
+set laststatus=2
+
 
 " Go crazy!
 if filereadable(expand("~/.vimrc.local"))
